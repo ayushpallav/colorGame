@@ -1,0 +1,82 @@
+body{
+  position: fixed;
+  background-color: lightgray;
+  height: 100%;
+  width: 100%;
+}
+#main_head {
+  font-family: fantasy;
+  font-style: oblique;
+  font-size: 50px;
+  padding-left: 80px;
+  padding-top: 60px;
+}
+.left {
+  float: left;
+  /* background-color: ivory; */
+  height: 98%;
+  width: 50%;
+}
+.right {
+  float: right;
+  /* background-color: lightgray; */
+  height: 98%;
+  width: 50%;
+}
+.top {
+  height: 50%;
+  /* background-color: lightyellow; */
+}
+.top main{
+  font-size: 80px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.middle {
+  height: 25%;
+  /* background-color: orange; */
+}
+.bottom {
+  height: 25%;
+  /* background-color: lightblue; */
+}
+.options {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  height: 99%;
+  grid-gap: 8px;
+}
+.op {
+  background-color: black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+#op1 {
+  background-color: red;
+}
+#op2 {
+  background-color: lightyellow;
+}#op3 {
+  background-color: lightblue;
+}#op4 {
+  background-color: cyan;
+}#op5 {
+  background-color: yellow;
+}#op6 {
+  background-color: pink;
+}
+#restart{
+  float: right;
+  margin: 30px;
+  background-color: cyan;
+  width: 20%;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#message {
+  color: red;
+  font-size: 50px;
+  padding-left: 80px;
+}
