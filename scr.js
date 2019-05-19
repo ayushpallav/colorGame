@@ -1,3 +1,5 @@
+// window.localStorage.setItem("name","Ayush");
+// alert(window.localStorage.getItem("name"));
 function genRand(){
   return Math.floor(Math.random() * (256-0) + 0);
 }
@@ -32,7 +34,6 @@ function setup(){
   //console.log(sel);
   //console.log(opts[sel-1]);
   document.getElementById('ques').innerHTML = opts[sel-1];
-
 };
 console.log(tar);
 function trigger(e){
@@ -57,3 +58,7 @@ function trigger(e){
 document.getElementById("restart").addEventListener("click",function(){
   setup();
 });
+var user = prompt("Your name please?");
+window.localStorage.setItem("name",user);
+//console.log(window.localStorage.getItem("name"));
+document.getElementById("user_info").innerHTML = window.localStorage.getItem("name");

@@ -4,33 +4,52 @@ body{
   height: 100%;
   width: 100%;
 }
+.headline {
+  background-color: gray;
+  width: 100%;
+  height: 20%;
+}
 #main_head {
   font-family: fantasy;
   font-style: oblique;
   font-size: 50px;
   padding-left: 80px;
   padding-top: 60px;
+  width: 50%;
+  float: left;
+  position: absolute;
 }
 .left {
   float: left;
   /* background-color: ivory; */
-  height: 98%;
+  height: 78%;
   width: 50%;
 }
 .right {
   float: right;
   /* background-color: lightgray; */
-  height: 98%;
+  bottom: 0;
+  height: 50%;
   width: 50%;
 }
 .top {
   height: 50%;
   /* background-color: lightyellow; */
 }
-.top main{
-  font-size: 80px;
-  padding-top: 20px;
-  padding-left: 30px;
+#user_info {
+  height: 50%;
+  float: right;
+  margin-right: 40px;
+  margin-top: 25px;
+  font-family: fantasy;
+  font-size: 30px;
+}
+.headline main{
+  float: right;
+  font-size: 60px;
+  padding-right: 50px;
+  height: 50%;
+  padding-top: 5%;
 }
 .middle {
   height: 25%;
@@ -45,7 +64,7 @@ body{
   grid-template-columns: auto auto auto;
   padding: 10px;
   height: 99%;
-  grid-gap: 8px;
+  grid-gap: 5px;
 }
 .op {
   background-color: black;
